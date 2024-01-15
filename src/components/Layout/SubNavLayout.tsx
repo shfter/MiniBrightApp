@@ -66,6 +66,7 @@ export default function SubNavLayout(){
       >
         <div
           style={{
+            paddingLeft: "1vw",
             maxHeight: "100%",
             display: "flex", 
             flexDirection: "row",
@@ -79,9 +80,6 @@ export default function SubNavLayout(){
                     <div style={{display:"flex", flexDirection: "row", alignItems: "center"}}>
                     <Link href={{pathname:value.url, query: {boxId: tab}}} 
                     className={pathname.includes(value.url) ? "sublinkactive" : "sublink"}
-                    style={{
-                        margin: "0rem 0rem 0rem 1.2rem !important", textDecoration: "none"
-                    }}
                     >{value.name}</Link>
                     
                     </div>

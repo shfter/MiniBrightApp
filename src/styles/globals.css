@@ -188,6 +188,7 @@ navigation {
 }
 
 .sublink{
+  padding: 0 1.2vw 0 1.2vw;
   color: #9a9a9a !important;
 } 
 
@@ -198,6 +199,7 @@ navigation {
 } 
 
 .sublinkactive {
+  padding: 0 1.2vw 0 1.2vw;
   color: #f0f0f0 !important;
   outline: none !important;
   border: none !important;
