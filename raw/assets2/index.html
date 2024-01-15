@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BrightbOX (Backup 1701069132889)</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,500,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coda&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <aside id="sidebar">
+        <div id="logo">
+            <h1 style="font-size: 1.2vw;color: var(--bs-teal);">mini<span style="font-size: 1.7vw;color: var(--bs-white);">BrightBox</span></h1>
+        </div>
+        <div style="width: 70%;">
+            <ul class="nav" id="sidebar_navItems" style="height: 80vh;width: 90%;border: none;">
+                <li class="nav-item navitem">
+                    <div class="nav-item dropend"><button class="btn dropdown-toggle ors_dropdown" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="padding: 0;">Boxes</button>
+                        <div class="dropdown-menu" style="min-width: 20rem;padding: 1rem;background-color: var(--bs-dark);color: #f0f0f0;">
+                            <div style="display: flex;flex-direction: column;">
+                                <h4>Connected Boxes</h4>
+                                <hr style="border-top: solid;border-color: #ffffff;">
+                                <div style="height: 40vh;overflow-y: scroll;">
+                                    <div class="connect_item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-box-seam" style="font-size: 250%;color: var(--bs-teal);">
+                                            <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"></path>
+                                        </svg>
+                                        <div style="margin-left: 5%;display: flex;flex-direction: column;">
+                                            <p style="margin-bottom: 0;">BrightBox #2</p>
+                                            <p style="margin: 0;font-size: 70%;">5 sensors&nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><button class="btn btn-primary ors_btn" type="button" style="width: 100%;background-color: var(--bs-gray-300);border: none;color: var(--bs-dropdown-color);">Register New Box</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item navitem">
+                    <div class="nav-item dropend"><button class="btn dropdown-toggle ors_dropdown" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="padding: 0;">Recipies</button>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </div>
+                </li>
+                <li class="nav-item navitem" style="margin-top: 2rem;"><a class="nav-link a_sidebar" href="#">Options</a></li>
+            </ul><button class="btn btn-primary ors_btn" type="button" style="width: 100%;background-color: var(--bs-gray-300);border: none;color: var(--bs-dropdown-color);">DOCS</button>
+        </div>
+    </aside>
+    <div id="stage_wrap" style="display: flex;flex-direction: column;flex-grow: 1;">
+        <div style="height: 11vh;font-family: 'Coda';">
+            <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3" style="width: 100%;max-height: 60%;">
+                <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-6">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">First Item</a></li>
+                            <li class="nav-item"></li>
+                        </ul>
+                        <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
+                    </div>
+                    <div class="d-none d-md-block"></div>
+                </div>
+            </nav>
+            <div style="height: 40%;/*opacity: 0.91;*/background-color: #16181b;color: #9a9a9a;display: flex;align-items: center;">
+                <p style="max-height: 100%;font-size: 80%;margin-left: 1rem;margin: 0rem 0rem 0rem 0.8rem !important;">&nbsp; &nbsp;Boxes&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp;Sensors&nbsp; &nbsp; |&nbsp; &nbsp; Moisture sensor</p>
+            </div>
+        </div>
+        <div id="content_parent_wrap">
+            <div id="util_content">
+                <div class="sector_wrap">
+                    <h5 class="upsector_label">Current State</h5>
+                    <div class="sector" style="display: flex;flex-direction: column;justify-content: flex-start;padding: 1vw;background-color: var(--bs-gray-400);">
+                        <p class="innersector_p">Electrical Conductivity: 111 mS/m<span class="timespantag">&nbsp;(02.12.33 12:45)</span></p>
+                        <p class="innersector_p">Humidity: 20%<span class="timespantag">&nbsp;(02.12.33 12:45)</span></p>
+                        <p class="innersector_p">PH: 25<span class="timespantag">&nbsp;(02.12.33 12:45)</span></p>
+                        <p class="innersector_p">UV: 111<span class="timespantag">&nbsp;(02.12.33 12:45)</span></p>
+                        <p class="innersector_p">Air Temperature: 20&nbsp;<span class="timespantag">&nbsp;(02.12.33 12:45)</span></p>
+                        <p class="innersector_p">Water Temperature: 19&nbsp;<span class="timespantag">&nbsp;(02.12.33 12:45)</span></p>
+                    </div>
+                </div>
+                <div class="sector_wrap">
+                    <h5 class="upsector_label">Electrical Conductivity</h5>
+                    <div class="sector"></div>
+                </div>
+                <div class="sector_wrap">
+                    <h5 class="upsector_label">Humidity</h5>
+                    <div class="sector"></div>
+                </div>
+                <div class="sector_wrap">
+                    <h5 class="upsector_label">PH</h5>
+                    <div class="sector"></div>
+                </div>
+                <div class="sector_wrap">
+                    <h5 class="upsector_label">Air Temperature</h5>
+                    <div class="sector"></div>
+                </div>
+                <div class="sector_wrap">
+                    <h5 class="upsector_label">Water Temperature</h5>
+                    <div class="sector"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

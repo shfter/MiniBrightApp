@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+#sidebar {
+  background-color: #16181b;
+  min-width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vw 0vw 2vw 0vw;
+  z-index: 99;
+}
+
+#logo {
+  padding-top: 2vh;
+  padding-bottom: 0.5vh;
+  border-color: var(--bs-gray-900);
+  border-width: 3px;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+}
+
+#sidebar_navItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.a_sidebar {
+  color: rgba(255,255,255,0.5);
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+.a_sidebar:hover {
+  color: rgba(255,255,255);
+  cursor: pointer;
+}
+
+.btn_primary {
+  background-color: var(--bs-gray);
+}
+
